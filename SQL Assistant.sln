@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQL Assistant", "SQL Assistant\SQL Assistant.csproj", "{E5EFA12A-28BA-47A6-BB9D-F99C95B9A1BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyGen", "KeyGen\KeyGen.csproj", "{B6ADC333-B8A3-4A23-8273-6299A6E807E2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SQL Assistant Setup", "SQL Assistant Setup\SQL Assistant Setup.vdproj", "{F323B74D-2535-491E-BA4E-729F3C5D4105}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5EFA12A-28BA-47A6-BB9D-F99C95B9A1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5EFA12A-28BA-47A6-BB9D-F99C95B9A1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5EFA12A-28BA-47A6-BB9D-F99C95B9A1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5EFA12A-28BA-47A6-BB9D-F99C95B9A1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6ADC333-B8A3-4A23-8273-6299A6E807E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6ADC333-B8A3-4A23-8273-6299A6E807E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6ADC333-B8A3-4A23-8273-6299A6E807E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6ADC333-B8A3-4A23-8273-6299A6E807E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F323B74D-2535-491E-BA4E-729F3C5D4105}.Debug|Any CPU.ActiveCfg = Debug
+		{F323B74D-2535-491E-BA4E-729F3C5D4105}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
