@@ -15,17 +15,8 @@ namespace SQL_Assistant
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-
-            if (sysController.checkIfRegistered())
-            {
-                Application.Run(new MainForm());
-            }
-            else
-            {
-                Application.Run(new Login());
-            }
-           
+            Application.SetCompatibleTextRenderingDefault(false); 
+            Application.Run(new MainForm()); 
         }
     }
 }
